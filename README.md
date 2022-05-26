@@ -32,7 +32,7 @@ This [ViT_neuron_visualization](ViT_neuron_visualization.ipynb) notebook file in
 
 * Analyze the views of salient, non-salient, and random occlusion cases over the depth-level layers.
 
-<center><img src="./fig/all_drops.png" alt="Occlusion comparison" width="80%"/></center>
+<center><img src="./fig/all_drops.png" alt="Occlusion comparison" width="60%"/></center>
 
 ## How Neurons Behave?
 We implement the code the generate clustering behavior of embeddings in [ViT_embedding_visualization](ViT_embedding_visualization.ipynb) with full instruction to reproduce the result
