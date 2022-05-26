@@ -22,7 +22,7 @@ wget -O weights/ViT-B_16-224.npz /tmp/Ubuntu.iso https://storage.googleapis.com/
 
 ## What Neurons Tell?
 
-This [ViT_neuron_visualization](ViT_neuron_visualization.ipynb) notebook file includes the code we analyze the neuron's view that includes the below items according to the sector `What Neurons Tell` of the paper:
+The [ViT_neuron_visualization](ViT_neuron_visualization.ipynb) notebook file includes the code that we analyze the neuron's view.   According to the chapter `What Neurons Tell` of the paper, we introduce the below features and analysis:
 
 * Visualize filters and views of a specific input patche at 0'th layer:
 
