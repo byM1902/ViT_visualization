@@ -12,6 +12,14 @@ To create the environment, please install `annaconda` first and then run:
 To make the jupyter notebook could load the environment, run:
 
 `python -m ipykernel install --user --name=vit_visual`
+
+During this analysis we use model [Vision Transformer](https://github.com/google-research/vision_transformer) with version `ViT-B16/224`. To download the pretrain-weights of aforementioned model over `ImageNet21k + ImageNet2012` and save to `weights` folder, we should run the below bash commands:
+
+```{bash}
+mkdir -p weights
+wget -O weights/ViT-B_16-224.npz /tmp/Ubuntu.iso https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16-224.npz
+```
+
 ## What Neurons Tell?
 
 This [ViT_neuron_visualization](ViT_neuron_visualization.ipynb) notebook file includes the code we analyze the neuron's view that includes the below items according to the sector `What Neurons Tell` of the paper:
