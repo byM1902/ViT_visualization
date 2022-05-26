@@ -16,11 +16,21 @@ To make the jupyter notebook could load the environment, run:
 
 This `ViT_neuron_visualization.ipynb` notebook file includes the code we analyze the neuron's view that includes the below items according to the sector `What Neurons Tell` of the paper:
 
-* Create the input feature map at 0'th layer 
-* Create a global view at the higher layers
-* Compare global view corresponds with different patches.
-* Analyze the views of salient, non-salient, and random occlusion over the depth of layers.
+* Visualize filters and views of a specific input patche at 0'th layer:
 
+![View of on patch](./fig/layer0_embedding_row.png)
+
+* Comparing the views of different filters. Afterward, concluding that each filter is good for a specific group images but not good for the others group images.
+
+![Comparing view of embedding](./fig/layer0_good_bad_filters.png)
+
+* Create a global view at the higher layers and compare the global views corresponding with different patches.
+
+![global view over layers](./fig/layer_high_object_non_object.png)
+
+* Analyze the views of salient, non-salient, and random occlusion cases over the depth-level layers.
+
+![occlusion comparison](./fig/all_drops.png)
 
 ## How Neurons Behave?
 We implement the code the generate clustering behavior of embeddings in `ViT_embedding_visualization.ipynb` with full instruction to reproduce the result
